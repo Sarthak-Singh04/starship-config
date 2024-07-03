@@ -1,0 +1,38 @@
+# Starship prompt configuration with icons for various modules
+
+# General setup
+add_newline = true
+
+# AWS module configuration with Nerd Font icon
+[aws]
+format = "on [☁️ $profile($region)](bold yellow) "
+disabled = false
+
+# Azure module configuration with Nerd Font icon
+[azure]
+format = "on [🌌 $subscription](bold blue) "
+disabled = false
+
+# Programming languages configurations with Nerd Font icons
+[nodejs]
+format = "via [ $version](bold green) "
+
+[rust]
+format = "via [🦀 $version](bold red) "
+
+[python]
+format = "via [ $version](bold yellow) "
+
+[java]
+format = "via [☕ $version](bold orange) "
+
+[golang]
+format = "via [ $version](bold cyan) "
+
+[php]
+format = "via [🐘 $version](bold purple) "
+
+# Version control (Git) with Nerd Font icon
+[git_branch]
+format = "on [ $branch](bold magenta) "
+
